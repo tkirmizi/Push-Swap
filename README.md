@@ -3,13 +3,13 @@ Push_swap is a sorting project aimed at arranging numbers in ascending order usi
 
 The main challenge is to achieve this sorting using a restricted set of operations defined as follows:
 
-`swap` Swap the first 2 elements at the top of stack 'a'.
+`swap` Swap the first 2 elements at the top of stack.
 
-`push` Take the top element of stack 'a' and move it to stack 'b'.
+`push` Take the top element of one stack and move it to other stack's top.
 
-`rotate` Shift all elements of stack 'a' up by one position.
+`rotate` Shift all elements up by one position. The first element will be the last.
 
-`reverse rotate` Shift all elements of stack 'a' down by one position.
+`reverse rotate` Shift all elements down by one position. The last element will be the first.
 
 My approach is `Turk Algorithms`
 
